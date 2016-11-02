@@ -19,7 +19,7 @@ h2 {
   margin: 5px 0 5px 0;
   height: auto;
   width: 100%;
-  /*border: 5px solid white;*/
+  border: 5px solid white;
   transition: .5s;
 }
 
@@ -176,7 +176,8 @@ header {
 }
 
 .portfolio-thumbs {
-    margin-bottom: 2em
+    margin-bottom: 1em;
+    /*margin-left: 1em*/
 }
 
 .portfolio-thumbs img {
