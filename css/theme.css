@@ -19,7 +19,7 @@ h2 {
   margin: 5px 0 5px 0;
   height: auto;
   width: 100%;
-  border: 5px solid white;
+  border: 5px solid rgba(254, 254, 254, 0.5);
   transition: .5s;
 }
 
