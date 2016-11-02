@@ -78,7 +78,7 @@ function searchUnsplash(keyword) {
     }
   });
 }
-
+// col-md-4 col-xs-6 
 
 
 // ==== Append photos to container  ====
@@ -87,7 +87,7 @@ function organizePhotoData(data) {
   var photoSource = data.urls.small;
   $("<img/>").attr({
     "src": photoSource,
-    "class": "col-lg-3 col-xs-6 result portfolio-thumbs",
+    "class": "result portfolio-thumbs",
     "id": data.id,
     "location": data.user.location,
   // var newPhoto = $('<img src="' + photoSource + '">');
