@@ -25,14 +25,14 @@ $(function() {
 // ==== Search mountain icon ====
 
 mountains.on('click', function(){
-  userInput = 'mountains';
+  userInput = 'mountain peaks';
   searchIcons();
 });
 
 // ==== Search wildlife icon ====
 
 wildlife.on('click', function(){
-  userInput = 'wildlife';
+  userInput = 'forest wildlife';
   searchIcons();
 });
 
@@ -78,7 +78,7 @@ function searchUnsplash(keyword) {
     }
   });
 }
-// col-md-4 col-xs-6 
+// col-md-4 col-xs-6
 
 
 // ==== Append photos to container  ====
@@ -87,7 +87,7 @@ function organizePhotoData(data) {
   var photoSource = data.urls.small;
   $("<img/>").attr({
     "src": photoSource,
-    "class": "result portfolio-thumbs",
+    "class": "result image portfolio-thumbs",
     "id": data.id,
     "location": data.user.location,
   // var newPhoto = $('<img src="' + photoSource + '">');
