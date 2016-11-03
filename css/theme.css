@@ -7,13 +7,7 @@ body {
     font-weight: 300
 }
 
-h2 {
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    line-height: 1.75;
-    color: #232323;
-    font-weight: 300
-}
+
 
 .result {
   margin: 5px 0 5px 0;
@@ -22,7 +16,6 @@ h2 {
   border: 5px solid rgba(254, 254, 254, 0.5);
   transition: .5s;
 }
-
 
 #images {
   column-count: 3;
@@ -40,7 +33,7 @@ background-color: #000000;
   /*background-image:url("homeHero.jpg");
   background-position: center;
   background-repeat: no-repeat;*/
-  max-width: 330px;
+  max-width: 350px;
   padding: 25px;
   margin: 0 auto;
   border-radius: 10px;
@@ -53,12 +46,20 @@ background-color: #000000;
 
 }
 
+.form-signin-heading1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  line-height: 1.25;
+  color: #717169;
+  font-weight: 300;
+}
+
 .form-signin-heading {
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  line-height: 1.75;
-  color: #232323;
-  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #717169;
+  font-weight: 600;
 }
 
 .form-signin .checkbox {
@@ -752,7 +753,7 @@ th {
     text-align: center;
     text-shadow: none;
     background-image: none;
-    font-family: "Open Sans", "Helvetica Neue", helvetica, arial, verdana, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     border-radius: 5px;
     box-shadow: none;
@@ -781,9 +782,9 @@ th {
 }
 
 .btn-primary, a.btn-primary {
-    border: 1px solid #232323;
+    border: 1px solid #717169;
     color: #fff;
-    background: #232323
+    background: #717169
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary, .btn-primary:focus {
