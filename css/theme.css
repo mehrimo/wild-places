@@ -29,6 +29,11 @@ background-color: #000000;
 
 }
 
+
+.unsplash:link {
+  color: #AAAAAA
+}
+
 .form-signin {
   /*background-image:url("homeHero.jpg");
   background-position: center;
@@ -125,7 +130,7 @@ ul.inline li.right {
 }
 
 a, a:link, a:visited {
-    color: #95a5a6;
+    color: #FFFFFF;
     text-decoration: none
 }
 
@@ -278,13 +283,13 @@ header {
 }
 
 .footer-wrapper {
-    background: #232323;
+    background: #898980;
     margin-top: 6em
 }
 
 footer {
     color: #fff;
-    padding: 4em 0
+    padding: 2em 0
 }
 
 footer h3 {
@@ -296,7 +301,7 @@ footer ul {
 }
 
 ul.credits li {
-    color: #95a5a6;
+    color: #FFFFFF;
     font-size: .875em
 }
 
