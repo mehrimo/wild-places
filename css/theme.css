@@ -7,7 +7,11 @@ body {
     font-weight: 300
 }
 
-
+.icons {
+  max-width: 113px;
+  max-height: 58px;
+  align:right;
+}
 
 .result {
   margin: 5px 0 5px 0;
@@ -22,6 +26,8 @@ body {
   column-width: 200px;
   column-gap: 10px;
 }
+
+
 
 /*try hover*/
 .image:hover {
