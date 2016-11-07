@@ -6,3 +6,5 @@ My project is called Wild Places - an outdoorsy themed photo searching app. It w
 My MVP is to have the photo search and display correctly. My strech goals are to have a few nature icons below the search field that will search for specific terms when clicked on.
 
 Pivotal Tracker: https://www.pivotaltracker.com/n/projects/1908403
+
+Final site: http://wildplaces.surge.sh/

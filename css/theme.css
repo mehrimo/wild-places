@@ -10,13 +10,13 @@ body {
 .icons {
   max-width: 113px;
   max-height: 58px;
-  align:right;
 }
 
 .result {
   margin: 5px 0 5px 0;
   height: auto;
-  width: 100%;
+/* fix the image size from going to full screen */
+  max-width: 400px;
   border: 5px solid rgba(254, 254, 254, 0.5);
   transition: .5s;
 }
