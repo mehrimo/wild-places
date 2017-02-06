@@ -3,7 +3,6 @@ $(document).ready(function() {
 
     // var $xhr = $.getJSON('https://api.unsplash.com/photos/search/?query=&client_id=5bb9ff819a44bbdcda3fcb8695bb0c2007c1ae0d85c3e3829b431b7862821926');
 
-
     // var photoCollection = {}
     var mountains = $('#nav-mountains');
     var wildlife = $('#nav-wildlife');
@@ -14,7 +13,6 @@ $(document).ready(function() {
 
 
     // ==== Search input field ====
-
     $(function() {
         $('#search_button').on('click', function() {
             searchUnsplash($('#search_criteria').val());
@@ -23,28 +21,24 @@ $(document).ready(function() {
     });
 
     // ==== Search mountain icon ====
-
     mountains.on('click', function() {
         userInput = 'mountain peaks';
         searchIcons();
     });
 
     // ==== Search wildlife icon ====
-
     wildlife.on('click', function() {
         userInput = 'forest wildlife';
         searchIcons();
     });
 
     // ==== Search camping icon ====
-
     camping.on('click', function() {
         userInput = 'camping';
         searchIcons();
     });
 
     // ==== Search canoe icon ====
-
     canoe.on('click', function() {
         userInput = 'canoe';
         searchIcons();
@@ -52,7 +46,6 @@ $(document).ready(function() {
 
 
     // ==== Search Using Icons ====
-
     function searchIcons() {
 
         var $xhr = $.getJSON('https://api.unsplash.com/photos/search/?query=' + userInput + '&client_id=5bb9ff819a44bbdcda3fcb8695bb0c2007c1ae0d85c3e3829b431b7862821926');
@@ -66,7 +59,6 @@ $(document).ready(function() {
     }
 
     // ==== Search Using Form ====
-
     function searchUnsplash(keyword) {
 
         var $xhr = $.getJSON('https://api.unsplash.com/photos/search/?query=' + keyword + '&client_id=5bb9ff819a44bbdcda3fcb8695bb0c2007c1ae0d85c3e3829b431b7862821926');
@@ -80,9 +72,7 @@ $(document).ready(function() {
     }
     // col-md-4 col-xs-6
 
-
-    // // ==== Append photos to container  ====
-    //
+    // ==== Append photos to container  ====
     function organizePhotoData(data) {
         var photoSource = data.urls.small;
         $("<img/>").attr({
@@ -94,11 +84,7 @@ $(document).ready(function() {
             // imgContainer.append(newPhoto);
             // console.log(newPhoto);
         }).appendTo('#images');
-
     }
-
-
-
 
 
 });

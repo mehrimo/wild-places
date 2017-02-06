@@ -1,10 +1,4 @@
-# wild_places
-My Q1 project for Galvanize
+# Wild Places
+Wild Places a web application that allows the user to search for outdoor inspiration through photography utilizing the Unsplash API. The user has the option to search using the form or clicking on an outdoor themed icon. Up to ten photos will display on the page.
 
-My project is called Wild Places - an outdoorsy themed photo searching app. It will allow the user to search for photos using the Unsplash API. The photos will display on the same page.
-
-My MVP is to have the photo search and display correctly. My strech goals are to have a few nature icons below the search field that will search for specific terms when clicked on.
-
-Pivotal Tracker: https://www.pivotaltracker.com/n/projects/1908403
-
-Final site: http://wildplaces.surge.sh/
+Current deployed version: http://wildplaces.surge.sh/
