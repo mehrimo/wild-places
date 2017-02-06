@@ -11,7 +11,7 @@ A walkthrough will be provided so you can experience the app, or you can view it
 
 ### Features
 
-1. The **home page** allows the user to search using the form or clicking on an outdoor themed icon. Each icon will display a different set of images. Up to ten images will display on the page.
+1. The **home page** allows the user to search through the form or clicking on an outdoor themed icon. Each icon will display a different set of images. Up to ten images will display on the page.
 
 ### Technologies Used
 
